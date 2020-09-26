@@ -1,0 +1,31 @@
+1601078614334	geckodriver	INFO	Listening on 127.0.0.1:46581
+1601078615350	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilepFlI0p"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601078618762	Marionette	INFO	Listening on port 35927
+1601078618872	Marionette	WARN	TLS certificate errors will be ignored for this session
+1601078689462	geckodriver	INFO	Listening on 127.0.0.1:45123
+1601078689473	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilemd95cu"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601078692665	Marionette	INFO	Listening on port 37239
+1601078692711	Marionette	WARN	TLS certificate errors will be ignored for this session
+1601078805669	geckodriver	INFO	Listening on 127.0.0.1:51409
+1601078805681	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileV385h5"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601078808993	Marionette	INFO	Listening on port 44335
+1601078809095	Marionette	WARN	TLS certificate errors will be ignored for this session
+1601078814355	Marionette	INFO	Stopped listening on port 44335
+JavaScript error: https://static.produpress.be/js/v5/library.js, line 1: TypeError: can't convert undefined to object
+1601078815141	geckodriver	INFO	Listening on 127.0.0.1:51523
+1601078815146	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileXjU4dW"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601078818440	Marionette	INFO	Listening on port 44275
+1601078818462	Marionette	WARN	TLS certificate errors will be ignored for this session
+1601078821344	Marionette	INFO	Stopped listening on port 44275
+JavaScript error: https://static.produpress.be/js/v5/library.js, line 1: TypeError: can't convert undefined to object
+1601078856959	geckodriver	INFO	Listening on 127.0.0.1:50127
+1601078856967	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileGXnbkH"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601078859917	Marionette	INFO	Listening on port 35851
+1601078859997	Marionette	WARN	TLS certificate errors will be ignored for this session
+1601078863740	Marionette	INFO	Stopped listening on port 35851
+JavaScript error: https://static.produpress.be/js/v5/library.js, line 1: TypeError: can't convert undefined to object

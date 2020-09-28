@@ -35,6 +35,7 @@ The project create an estate dataset from ImmoWeb that holds the following colum
     Price type                : The type price of the sale (residential sale, group sale, ...)
     Price                     : The price of the sale
     Price additional value    : The additional price of the sale
+    Url                       : Url of the property
     --------------------------------------------------------------------------------------------
 
 ## Getting Started

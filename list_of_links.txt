@@ -9,7 +9,6 @@ https://immo.vlan.be/en/detail/residence/for-sale/8000/brugge/rap57544
 https://immo.vlan.be/en/detail/ground-floor/for-sale/8930/lauwe/rap57478
 https://immo.vlan.be/en/detail/residence/for-sale/8530/harelbeke/rap57462
 https://immo.vlan.be/en/detail/residence/for-sale/8560/gullegem/rap57461
-https://immo.vlan.be/en/detail/development-site/for-sale/8930/lauwe/rap57454
 https://immo.vlan.be/en/detail/residence/for-sale/8890/dadizele/rap57453
 https://immo.vlan.be/en/detail/residence/for-sale/8792/desselgem/rap57452
 https://immo.vlan.be/en/detail/residence/for-sale/8500/kortrijk/rap57447
@@ -20,7 +19,6 @@ https://immo.vlan.be/en/detail/residence/for-sale/8800/roeselare/rap57354
 https://immo.vlan.be/en/detail/residence/for-sale/8800/roeselare/rap57352
 https://immo.vlan.be/en/detail/flat---apartment/for-sale/1700/dilbeek/rap57339
 https://immo.vlan.be/en/detail/return-building/for-sale/9040/sint-amandsberg/rap57286
-https://immo.vlan.be/en/detail/office-space/for-sale/8540/deerlijk/rap57214
 https://immo.vlan.be/en/detail/flat---apartment/for-sale/8540/deerlijk/rap57213
 https://immo.vlan.be/en/detail/flat---apartment/for-sale/8620/nieuwpoort/rap57207
 https://immo.vlan.be/en/detail/villa/for-sale/8800/roeselare/rap57202
@@ -42,11 +40,9 @@ https://immo.vlan.be/en/detail/flat---apartment/for-sale/1210/sint-joost-ten-nod
 https://immo.vlan.be/en/detail/master-house/for-sale/7542/mont-saint-aubert/val85686
 https://immo.vlan.be/en/detail/industrial-building/for-sale/7141/carnieres/val85651
 https://immo.vlan.be/en/detail/flat---apartment/for-sale/7500/tournai/val85638
-https://immo.vlan.be/en/detail/development-site/for-sale/8850/ardooie/rap56770
 https://immo.vlan.be/en/detail/residence/for-sale/5190/balatre/val85594
 https://immo.vlan.be/en/detail/residence/for-sale/6180/courcelles/val85592
 https://immo.vlan.be/en/detail/residence/for-sale/5060/sambreville/val85580
-https://immo.vlan.be/en/detail/development-site/for-sale/8780/oostrozebeke/rap56618
 https://immo.vlan.be/en/detail/residence/for-sale/8610/kortemark/rap56463
 https://immo.vlan.be/en/detail/residence/for-sale/7740/pecq/val85484
 https://immo.vlan.be/en/detail/residence/for-sale/9850/nevele/rap56427
@@ -62,13 +58,8 @@ https://immo.vlan.be/en/detail/return-building/for-sale/3001/heverlee/rap56211
 https://immo.vlan.be/en/detail/flat---apartment/for-sale/7100/la-louviere/vwc91149
 https://immo.vlan.be/en/detail/residence/for-sale/6180/courcelles/val85266
 https://immo.vlan.be/en/detail/villa/for-sale/5600/philippeville/val85258
-https://immo.vlan.be/en/detail/development-site/for-sale/5600/neuville/val85233
-https://immo.vlan.be/en/detail/development-site/for-sale/5600/neuville/val85223
-https://immo.vlan.be/en/detail/development-site/for-sale/5600/neuville/val85222
 https://immo.vlan.be/en/detail/villa/for-sale/5600/neuville/val85208
-https://immo.vlan.be/en/detail/office-space/for-sale/6460/chimay/val85205
 https://immo.vlan.be/en/detail/commerce-building/for-sale/6111/landelies/val85161
-https://immo.vlan.be/en/detail/development-site/for-sale/7120/estinnes-au-mont/val85127
 https://immo.vlan.be/en/detail/duplex/for-sale/8370/blankenberge/rwc10654
 https://immo.vlan.be/en/detail/residence/for-sale/5600/philippeville/val85034
 https://immo.vlan.be/en/detail/residence/for-sale/5030/gembloux/val84987
@@ -99,7 +90,6 @@ https://immo.vlan.be/en/detail/residence/for-sale/8790/waregem/rap55478
 https://immo.vlan.be/en/detail/residence/for-sale/8511/aalbeke/rap55466
 https://immo.vlan.be/en/detail/flat---studio/for-sale/8430/middelkerke/rap55457
 https://immo.vlan.be/en/detail/villa/for-sale/7534/barry/val84655
-https://immo.vlan.be/en/detail/development-site/for-sale/7330/saint-ghislain/val84654
 https://immo.vlan.be/en/detail/villa/for-sale/6140/fontaine-l'eveque/val84494
 https://immo.vlan.be/en/detail/garage/for-sale/8710/sint-baafs-vijve/rap55368
 https://immo.vlan.be/en/detail/residence/for-sale/1755/gooik/rap55310
@@ -111,14 +101,12 @@ https://immo.vlan.be/en/detail/residence/for-sale/8800/roeselare/rak93336
 https://immo.vlan.be/en/detail/flat---apartment/for-sale/5000/namur/val34732
 https://immo.vlan.be/en/detail/mixed-building/for-sale/4700/eupen/val80758
 https://immo.vlan.be/en/detail/return-building/for-sale/9280/lebbeke/ral75620
-https://immo.vlan.be/en/detail/development-site/for-sale/6600/wardin/vaj59424
 https://immo.vlan.be/en/detail/residence/for-sale/8552/moen/ran80434
 https://immo.vlan.be/en/detail/farmland/for-sale/7110/boussoit/val80492
 https://immo.vlan.be/en/detail/flat---apartment/for-sale/7500/tournai/vaj62901
 https://immo.vlan.be/en/detail/flat---apartment/for-sale/1080/sint-jans-molenbeek/rwc00129
 https://immo.vlan.be/en/detail/flat---apartment/for-sale/1080/sint-jans-molenbeek/rwc00138
 https://immo.vlan.be/en/detail/flat---apartment/for-sale/1082/berchem-sainte-agathe/rwc03470
-https://immo.vlan.be/en/detail/development-site/for-sale/6700/arlon/vaj40199
 https://immo.vlan.be/en/detail/master-house/for-sale/5580/rochefort/vwc90714
 https://immo.vlan.be/en/detail/flat---apartment/for-sale/8880/ledegem/rap49620
 https://immo.vlan.be/en/detail/garage/for-sale/8800/roeselare/ran14180
@@ -126,7 +114,6 @@ https://immo.vlan.be/en/detail/return-building/for-sale/6000/charleroi/val79522
 https://immo.vlan.be/en/detail/business-surface/for-sale/8820/torhout/rwc05427
 https://immo.vlan.be/en/detail/residence/for-sale/5630/cerfontaine/val77420
 https://immo.vlan.be/en/detail/flat---apartment/for-sale/5190/jemeppe-sur-sambre/val33350
-https://immo.vlan.be/en/detail/development-site/for-sale/6530/thuin/vak71001
 https://immo.vlan.be/en/detail/villa/for-sale/7740/pecq/rap43716
 https://immo.vlan.be/en/detail/return-building/for-sale/6200/chatelet/val51598
 https://immo.vlan.be/en/detail/residence/for-sale/8930/menen/rap31455
@@ -134,7 +121,6 @@ https://immo.vlan.be/en/detail/residence/for-sale/3800/sint-truiden/rak68065
 https://immo.vlan.be/en/detail/commerce-building/for-sale/5620/florennes/val36309
 https://immo.vlan.be/en/detail/residence/for-sale/6032/mont-sur-marchienne/val23261
 https://immo.vlan.be/en/detail/residence/for-sale/5600/neuville/val24174
-https://immo.vlan.be/en/detail/development-site/for-sale/5600/neuville/val24614
 https://immo.vlan.be/en/detail/flat---apartment/for-sale/8400/oostende/rwc03922
 https://immo.vlan.be/en/detail/flat---apartment/for-sale/2018/antwerp/rap46266
 https://immo.vlan.be/en/detail/flat---apartment/for-sale/6000/charleroi/vak78897
@@ -147,7 +133,6 @@ https://immo.vlan.be/en/detail/residence/for-sale/7100/la-louviere/vwc89999
 https://immo.vlan.be/en/detail/residence/for-sale/5060/arsimont/val62831
 https://immo.vlan.be/en/detail/residence/for-sale/6044/roux/val67526
 https://immo.vlan.be/en/detail/residence/for-sale/8510/rollegem/rap41094
-https://immo.vlan.be/en/detail/development-site/for-sale/8610/zarren/ran88117
 https://immo.vlan.be/en/detail/return-building/for-sale/8530/harelbeke/raj92815
 https://immo.vlan.be/en/detail/residence/for-sale/1500/halle/rap42494
 https://immo.vlan.be/en/detail/flat---apartment/in-public-sale/1083/ganshoren/val88553
@@ -160,7 +145,6 @@ https://immo.vlan.be/en/detail/flat---apartment/for-sale/3960/bree/rap61273
 https://immo.vlan.be/en/detail/flat---apartment/for-sale/1853/strombeek-bever/rap61269
 https://immo.vlan.be/en/detail/residence/for-sale/6140/fontaine-l'eveque/val88750
 https://immo.vlan.be/en/detail/residence/for-sale/6140/fontaine-l'eveque/val88749
-https://immo.vlan.be/en/detail/development-site/for-sale/1370/jodoigne/val88748
 https://immo.vlan.be/en/detail/residence/for-sale/7950/grosage/val88747
 https://immo.vlan.be/en/detail/residence/for-sale/7861/papignies/val88746
 https://immo.vlan.be/en/detail/residence/for-sale/7822/meslin-l'eveque/val88745
@@ -191,7 +175,6 @@ https://immo.vlan.be/en/detail/residence/for-sale/3800/sint-truiden/rap61255
 https://immo.vlan.be/en/detail/flat---apartment/for-sale/3440/zoutleeuw/rap61254
 https://immo.vlan.be/en/detail/flat---apartment/for-sale/3630/maasmechelen/rap61252
 https://immo.vlan.be/en/detail/villa/for-sale/3621/rekem/rap61251
-https://immo.vlan.be/en/detail/development-site/for-sale/3630/maasmechelen/rap61250
 https://immo.vlan.be/en/detail/commerce-building/for-sale/3970/leopoldsburg/rap61249
 https://immo.vlan.be/en/detail/residence/for-sale/3580/beringen/rap61248
 https://immo.vlan.be/en/detail/residence/for-sale/3580/beringen/rap61247
@@ -223,9 +206,7 @@ https://immo.vlan.be/en/detail/flat---apartment/for-sale/2100/deurne/rap61219
 https://immo.vlan.be/en/detail/flat---apartment/for-sale/9800/deinze/rap61217
 https://immo.vlan.be/en/detail/residence/for-sale/1785/merchtem/rap61216
 https://immo.vlan.be/en/detail/flat---apartment/for-sale/1780/wemmel/rap61215
-https://immo.vlan.be/en/detail/development-site/for-sale/1020/laken/rap61214
 https://immo.vlan.be/en/detail/residence/for-sale/1020/laken/rap61213
-https://immo.vlan.be/en/detail/development-site/for-sale/1860/meise/rap61212
 https://immo.vlan.be/en/detail/commerce-building/for-sale/2811/hombeek/rap61211
 https://immo.vlan.be/en/detail/residence/for-sale/8800/roeselare/rap61210
 https://immo.vlan.be/en/detail/residence/for-sale/8520/kuurne/rap61207
@@ -240,7 +221,6 @@ https://immo.vlan.be/en/detail/flat---apartment/for-sale/8900/ieper/rap61199
 https://immo.vlan.be/en/detail/flat---apartment/for-sale/8900/ieper/rap61198
 https://immo.vlan.be/en/detail/ground-floor/for-sale/8900/ieper/rap61197
 https://immo.vlan.be/en/detail/residence/for-sale/3650/rotem/rap61196
-https://immo.vlan.be/en/detail/development-site/for-sale/3650/stokkem/rap61195
 https://immo.vlan.be/en/detail/penthouse/for-sale/1785/merchtem/rap61192
 https://immo.vlan.be/en/detail/flat---apartment/for-sale/9040/sint-amandsberg/rap61191
 https://immo.vlan.be/en/detail/residence/for-sale/9040/sint-amandsberg/rap61190
@@ -300,7 +280,6 @@ https://immo.vlan.be/en/detail/flat---apartment/for-sale/9300/aalst/rap61093
 https://immo.vlan.be/en/detail/flat---apartment/for-sale/2000/antwerp/rap61092
 https://immo.vlan.be/en/detail/garage/for-sale/8670/koksijde/rap61090
 https://immo.vlan.be/en/detail/flat---apartment/for-sale/9200/appels/rap61091
-https://immo.vlan.be/en/detail/development-site/for-sale/9200/oudegem/rap61088
 https://immo.vlan.be/en/detail/flat---apartment/for-sale/8670/koksijde/rap61086
 https://immo.vlan.be/en/detail/residence/for-sale/8560/gullegem/rap61085
 https://immo.vlan.be/en/detail/flat---apartment/for-sale/2170/merksem/rap61084
@@ -338,7 +317,6 @@ https://immo.vlan.be/en/detail/ground-floor/for-sale/2018/antwerp/rap61048
 https://immo.vlan.be/en/detail/residence/for-sale/6840/neufchateau/val88706
 https://immo.vlan.be/en/detail/master-house/for-sale/2140/borgerhout/rap61047
 https://immo.vlan.be/en/detail/residence/for-sale/4680/oupeye/val88705
-https://immo.vlan.be/en/detail/development-site/for-sale/2590/berlaar/rap61046
 https://immo.vlan.be/en/detail/residence/for-sale/3220/sint-pieters-rode/rap61045
 https://immo.vlan.be/en/detail/flat---apartment/for-sale/1080/sint-jans-molenbeek/val88704
 https://immo.vlan.be/en/detail/residence/for-sale/4610/beyne-heusay/val88703
@@ -347,7 +325,6 @@ https://immo.vlan.be/en/detail/residence/for-sale/8800/roeselare/rap61043
 https://immo.vlan.be/en/detail/flat---apartment/for-sale/3700/tongeren/rap61040
 https://immo.vlan.be/en/detail/flat---apartment/for-sale/9700/oudenaarde/rap61041
 https://immo.vlan.be/en/detail/flat---apartment/for-sale/9000/gent/rap61039
-https://immo.vlan.be/en/detail/development-site/for-sale/7912/dergneau/rap61038
 https://immo.vlan.be/en/detail/flat---apartment/for-sale/9700/oudenaarde/rap61037
 https://immo.vlan.be/en/detail/residence/for-sale/3700/tongeren/rap61035
 https://immo.vlan.be/en/detail/residence/for-sale/9032/wondelgem/rap61036
@@ -359,17 +336,14 @@ https://immo.vlan.be/en/detail/residence/for-sale/3870/rukkelingen-loon/rap61028
 https://immo.vlan.be/en/detail/flat---apartment/for-sale/8660/de-panne/rap61026
 https://immo.vlan.be/en/detail/residence/for-sale/8501/heule/rap61025
 https://immo.vlan.be/en/detail/bungalow/for-sale/8670/oostduinkerke/rap61023
-https://immo.vlan.be/en/detail/development-site/for-sale/3600/genk/rap61022
 https://immo.vlan.be/en/detail/villa/for-sale/3630/opgrimbie/rap61008
 https://immo.vlan.be/en/detail/industrial-building/for-sale/9000/gent/rap61004
 https://immo.vlan.be/en/detail/residence/for-sale/9320/nieuwerkerken/rap61002
-https://immo.vlan.be/en/detail/development-site/for-sale/8650/houthulst/rap61001
 https://immo.vlan.be/en/detail/farmland/for-sale/2270/herenthout/rap60999
 https://immo.vlan.be/en/detail/farmland/for-sale/2270/herenthout/rap60998
 https://immo.vlan.be/en/detail/residence/for-sale/2500/lier/rap60996
 https://immo.vlan.be/en/detail/residence/for-sale/3740/bilzen/rap60995
 https://immo.vlan.be/en/detail/residence/for-sale/3740/bilzen/rap60994
-https://immo.vlan.be/en/detail/development-site/for-sale/2220/heist-op-den-berg/rap60993
 https://immo.vlan.be/en/detail/residence/for-sale/3740/bilzen/rap60992
 https://immo.vlan.be/en/detail/residence/for-sale/3740/bilzen/rap60989
 https://immo.vlan.be/en/detail/duplex/for-sale/3580/beringen/rap60979
@@ -383,7 +357,6 @@ https://immo.vlan.be/en/detail/residence/for-sale/9000/gent/rap60971
 https://immo.vlan.be/en/detail/residence/for-sale/9032/wondelgem/rap60970
 https://immo.vlan.be/en/detail/residence/for-sale/8790/waregem/rap60968
 https://immo.vlan.be/en/detail/residence/for-sale/1785/merchtem/rap60964
-https://immo.vlan.be/en/detail/development-site/for-sale/8490/jabbeke/rap60959
 https://immo.vlan.be/en/detail/flat---apartment/for-sale/9990/maldegem/rap60952
 https://immo.vlan.be/en/detail/commerce-building/for-sale/8670/oostduinkerke/rap60951
 https://immo.vlan.be/en/detail/flat---apartment/for-sale/9850/landegem/rap60950
@@ -398,7 +371,6 @@ https://immo.vlan.be/en/detail/residence/for-sale/9910/knesselare/rap60942
 https://immo.vlan.be/en/detail/residence/for-sale/9130/kieldrecht/rap60941
 https://immo.vlan.be/en/detail/residence/for-sale/3870/heers/rap60940
 https://immo.vlan.be/en/detail/flat---apartment/for-sale/3570/alken/rap60939
-https://immo.vlan.be/en/detail/development-site/for-sale/9100/sint-niklaas/rap60933
 https://immo.vlan.be/en/detail/residence/for-sale/8210/veldegem/rap60932
 https://immo.vlan.be/en/detail/residence/for-sale/8380/lissewege/rap60931
 https://immo.vlan.be/en/detail/residence/for-sale/2440/geel/rap60930
@@ -447,7 +419,6 @@ https://immo.vlan.be/en/detail/office-space/for-sale/1060/sint-gillis/val88673
 https://immo.vlan.be/en/detail/flat---apartment/for-sale/2100/deurne/rap60884
 https://immo.vlan.be/en/detail/villa/for-sale/8570/anzegem/rap60883
 https://immo.vlan.be/en/detail/villa/for-sale/8792/desselgem/rap60882
-https://immo.vlan.be/en/detail/farming-site/for-sale/8770/ingelmunster/rap60881
 https://immo.vlan.be/en/detail/development-site/for-sale/8792/desselgem/rap60880
 https://immo.vlan.be/en/detail/flat---apartment/for-sale/2220/heist-op-den-berg/rap60879
 https://immo.vlan.be/en/detail/residence/for-sale/9052/zwijnaarde/rap60878

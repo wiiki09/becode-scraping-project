@@ -9,40 +9,38 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.by import By
 
-#url='https://www.immoweb.be/en/search/house/for-sale?countries=BE'
-url="https://www.immoweb.be/en/search/apartment/for-sale?countries=BE"
+#This is the list of type of property we want search data, we can add more type type
+list_of_property_type=["house", "apartment"]
 
-driver = webdriver.Firefox()
-driver.implicitly_wait(30)
-driver.get(url)
+number_of_link=0
 
-soup=BeautifulSoup(driver.page_source, "lxml")
-driver.close()
+for type in list_of_property_type:
 
+    page_index=1
 
-immo_links=[]
-page_number=int(soup.find_all("span", attrs={"class" : "button__label", "aria-hidden" : "true" })[-1].text)+1
+    while True:
 
+        url="https://www.immoweb.be/en/search/"+type+"/for-sale?countries=BE&page="+str(page_index)
 
-for i in range(1,page_number):
+        r = requests.get(url)
+        if(r.status_code > 399):
+            break
 
-    #url="https://www.immoweb.be/en/search/house/for-sale?countries=BE&page="+str(i)
-    url="https://www.immoweb.be/en/search/apartment/for-sale?countries=BE&page="+str(i)
-
-    driver = webdriver.Firefox()
-    driver.implicitly_wait(30)
-    driver.get(url)
-
-    soup=BeautifulSoup(driver.page_source, "lxml")
-    driver.close()
-    
-    f = open("immoweb_links.txt", "a")
-    for elem in soup.find_all("a", attrs={"class" : "card__title-link"}):
-        immo_links.append(elem.get('href'))
-        f.writelines(elem.get('href')+'\n')
+        driver = webdriver.Firefox()
+        driver.implicitly_wait(30)
+        driver.get(url)
         
-    f.close()
-    print(len(immo_links))
+        soup=BeautifulSoup(driver.page_source, "lxml")
+        driver.close()
+        
+        f = open("immoweb_all_links.txt", "a")
+        for elem in soup.find_all("a", attrs={"class" : "card__title-link"}):
+            f.writelines(elem.get('href')+'\n')
+            number_of_link += 1    
+        f.close()
+
+        page_index += 1
+        print(number_of_link)
 
 
 

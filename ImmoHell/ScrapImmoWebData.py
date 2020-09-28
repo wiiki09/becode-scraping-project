@@ -7,11 +7,11 @@ import random
 from random import randint
 from datetime import datetime
 
-
+#We create a file log to log some problem
 log = open("immoweb_log.txt", "a")
 
 try :
-    with open("immoweb_house_links.txt", "r") as file :
+    with open("immoweb_all_links.txt", "r") as file :
         immo_links = file.read().splitlines()
 except:
     texte="An error append with the document"
@@ -68,6 +68,7 @@ price_type=[]
 price=[]
 price_additional_value=[]
 
+url_of_estate=[]
 json_error = 0
 
 try :
@@ -75,16 +76,19 @@ try :
 
         url=link
 
+        #We wait 1 second per link to don't be kick from the server
+        #Maybe we can reduce the time 
         time.sleep(1)
         r = requests.get(url)
         
-        print(url, r.status_code)
         current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        print(current_time, url, r.status_code)
         log.write(current_time +" : "+url+"  [STATUS CODE = "+str(r.status_code)+"]"+'\n')
         
         
         soup = BeautifulSoup(r.content,'html.parser')
 
+        #We catch the balise script with all the JSON property data 
         script = soup.find("div", id="container-main-content")
         script = script.find_next("script")
         text_script = str(script)
@@ -93,6 +97,8 @@ try :
         text_script = text_script[start:end+1]
         # cut_texte = texte.lstrip('{') why doesn't works ????
         
+
+        #We load the JSON object to a python dictionary
         try :
             immo_object = json.loads(text_script)
         except :
@@ -104,6 +110,8 @@ try :
             log.write(current_time+" : "+texte+'\n')   
             json_error += 1 
 
+
+    #With the new immo_object we will catch all data we need for the database
 
     ###Property### 
         
@@ -145,19 +153,22 @@ try :
 
         ###HasBasement
         try :
-            has_basement.append(immo_object["property"]["hasBasement"])
+            value = immo_object["property"]["hasBasement"]
+            has_basement.append(None if (None == value) else 1 if value else 0)
         except :
             has_basement.append(None)
 
         ###HasLift
         try :
-            has_lift.append(immo_object["property"]["hasLift"])
+            value = immo_object["property"]["hasLift"]
+            has_lift.append(None if (None == value) else 1 if value else 0)
         except :
             has_lift.append(None)   
 
         ###HasGarden
         try :
-            has_garden.append(immo_object["property"]["hasGarden"])
+            value = immo_object["property"]["hasGarden"]
+            has_garden.append(None if (None == value) else 1 if value else 0)
         except :
             has_garden.append(None)
 
@@ -175,13 +186,15 @@ try :
         
         ###HasSwimmingPool
         try :
-            has_swimming_pool.append(immo_object["property"]["hasSwimmingPool"])
+            value = immo_object["property"]["hasSwimmingPool"]
+            has_swimming_pool.append(None if (None == value) else 1 if value else 0)
         except :
             has_swimming_pool.append(None)
 
         ###HasTerrace
         try :
-            has_terrace.append(immo_object["property"]["hasTerrace"])
+            value = immo_object["property"]["hasTerrace"]
+            has_terrace.append(None if (None == value) else 1 if value else 0)
         except :
             has_terrace.append(None)
 
@@ -286,7 +299,8 @@ try :
 
         ###IsFurnished
         try :
-            is_furnished.append(immo_object["transaction"]["sale"]["isFurnished"])
+            value = immo_object["transaction"]["sale"]["isFurnished"]
+            is_furnished.append(None if (None == value) else 1 if value else 0)
         except :
             is_furnished.append(None)
 
@@ -316,6 +330,10 @@ try :
         except :
             price_additional_value.append(None)
 
+        ###UrlEstate
+        url_of_estate.append(url)
+
+#In any case we want to create the csv file even if we have meet some error 
 finally:
     log.close()
 
@@ -351,6 +369,7 @@ finally:
     data_frame['Price type']=price_type
     data_frame['Price']=price
     data_frame['Price additional value']=price_additional_value
+    data_frame['Url']=url_of_estate
 
     data_frame.index.name = "Id"
     data_frame.to_csv('Scrap_immoHELL_data.csv', index=True)

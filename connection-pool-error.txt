@@ -1,0 +1,59 @@
+...
+...
+...
+2020-09-28 06:28:47 https://www.immoweb.be/en/classified/penthouse/for-sale/sint-kruis/8310/8891541?searchId=5f6fa26c6b253 200
+2020-09-28 06:28:48 https://www.immoweb.be/en/classified/apartment/for-sale/liege/4020/8647041?searchId=5f6fa26c6b253 200
+2020-09-28 06:28:50 https://www.immoweb.be/en/classified/apartment/for-sale/huy/4500/8827079?searchId=5f6fa26c6b253 200
+2020-09-28 06:28:53 https://www.immoweb.be/en/classified/apartment/for-sale/verviers/4800/8470800?searchId=5f6fa26c6b253 200
+Number of Json error during the scraping : 24
+Traceback (most recent call last):
+  File "/home/becode/anaconda3/envs/python_project_env_p3/lib/python3.8/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/home/becode/anaconda3/envs/python_project_env_p3/lib/python3.8/site-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/home/becode/anaconda3/envs/python_project_env_p3/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/becode/anaconda3/envs/python_project_env_p3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/home/becode/anaconda3/envs/python_project_env_p3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "/home/becode/anaconda3/envs/python_project_env_p3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 978, in _validate_conn
+    conn.connect()
+  File "/home/becode/anaconda3/envs/python_project_env_p3/lib/python3.8/site-packages/urllib3/connection.py", line 309, in connect
+    conn = self._new_conn()
+  File "/home/becode/anaconda3/envs/python_project_env_p3/lib/python3.8/site-packages/urllib3/connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7fc38d67a790>: Failed to establish a new connection: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/becode/anaconda3/envs/python_project_env_p3/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/home/becode/anaconda3/envs/python_project_env_p3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/home/becode/anaconda3/envs/python_project_env_p3/lib/python3.8/site-packages/urllib3/util/retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.immoweb.be', port=443): Max retries exceeded with url: /en/classified/apartment/for-sale/gilly/6060/8817997?searchId=5f6fa26c6b253 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc38d67a790>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/becode/Python/POO_Project/Scraping/becode-scraping-project/ImmoHell/ScrapImmoWebData.py", line 82, in <module>
+    r = requests.get(url)
+  File "/home/becode/anaconda3/envs/python_project_env_p3/lib/python3.8/site-packages/requests/api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/becode/anaconda3/envs/python_project_env_p3/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/becode/anaconda3/envs/python_project_env_p3/lib/python3.8/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/becode/anaconda3/envs/python_project_env_p3/lib/python3.8/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/becode/anaconda3/envs/python_project_env_p3/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.immoweb.be', port=443): Max retries exceeded with url: /en/classified/apartment/for-sale/gilly/6060/8817997?searchId=5f6fa26c6b253 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc38d67a790>: Failed to establish a new connection: [Errno -2] Name or service not known'))
